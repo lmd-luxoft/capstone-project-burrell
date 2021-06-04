@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HomeAccounting.BusinessLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj" />
     <ProjectReference Include="..\HomeAccounting.DataSource.Contract\HomeAccounting.DataSource.Contract.csproj" />
   </ItemGroup>
 
