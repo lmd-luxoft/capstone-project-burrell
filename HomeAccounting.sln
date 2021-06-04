@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAccounting.Console", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAccounting.BusinessLogic.Contract", "HomeAccounting.BusinessLogic.Contract\HomeAccounting.BusinessLogic.Contract.csproj", "{B269DC82-9D01-4C4A-A0C8-648C134E8C3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAccounting.BusinessLogic", "HomeAccounting.BusinessLogic\HomeAccounting.BusinessLogic.csproj", "{1D14209C-ADA2-4C46-8593-C2B569064828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B269DC82-9D01-4C4A-A0C8-648C134E8C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B269DC82-9D01-4C4A-A0C8-648C134E8C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B269DC82-9D01-4C4A-A0C8-648C134E8C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D14209C-ADA2-4C46-8593-C2B569064828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D14209C-ADA2-4C46-8593-C2B569064828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D14209C-ADA2-4C46-8593-C2B569064828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D14209C-ADA2-4C46-8593-C2B569064828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
