@@ -4,10 +4,10 @@ using System.Text;
 
 namespace HomeAccounting.BusinessLogic.Contract.Entity
 {
-    public class Asset : Entity
+    public class Account : Entity
     {
         public decimal Value { get; set; }
 
-        public AssetType Type { get; set; }
+        public AccountType Type { get; set; }
     }
 }

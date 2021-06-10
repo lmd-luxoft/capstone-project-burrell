@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeAccounting.BusinessLogic.Contract.Entity
 {
-    public class AssetType : Entity
+    public class AccountType : Entity
     {
     }
 }

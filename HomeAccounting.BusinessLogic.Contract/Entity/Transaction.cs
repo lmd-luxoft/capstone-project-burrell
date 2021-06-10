@@ -12,11 +12,11 @@ namespace HomeAccounting.BusinessLogic.Contract.Entity
 
         public Currency Currency { get; set; }
 
-        public Asset PayerAsset { get; set; }
+        public Account PayerAsset { get; set; }
 
         public string PayerDescription { get; set; }
 
-        public Asset ReceiverAsset { get; set; }
+        public Account ReceiverAsset { get; set; }
 
         public string ReceiverDescription { get; set; }
 
