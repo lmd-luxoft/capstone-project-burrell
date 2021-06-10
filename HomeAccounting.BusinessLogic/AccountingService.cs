@@ -20,6 +20,8 @@ namespace HomeAccounting.BusinessLogic
         public void CreateAccount(Account account)
         {
             var dto = MapEntityToDto(account);
+
+            _repo.CreateAccount(dto);
         }
 
         private static DbAccount MapEntityToDto(Account account)
